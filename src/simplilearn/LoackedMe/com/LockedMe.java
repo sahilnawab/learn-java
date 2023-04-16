@@ -11,7 +11,9 @@ public class LockedMe {
 		Scanner sc= new Scanner(System.in);
 		boolean running = true;
 		while (running) {
-		System.out.println("Please choose an option:");
+		System.out.println("Please choose an option:");		
+		System.out.println("Please choose an option fixed:");
+
 		System.out.println("1. list of file");
         System.out.println("2. Add a file");
         System.out.println("3. Delete a file");
