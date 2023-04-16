@@ -1,11 +1,9 @@
 package example;
-
+import java.util.*;
 public class Operators {
-
 	public static void main(String[] args) {
-		int a = 99;
-		int b = 45;
-		int c = 34;
+		Scanner sc = new Scanner(System.in);
+		int a =11 ,b= 23 , c= 55;
 		int sum = a+b;
 		int diff = a-b;
 		int multiply = a*b;
@@ -19,7 +17,11 @@ public class Operators {
 		System.out.println(a+b*c);//execute lesft to right
 		System.out.println(a-b/c);//precedance given to (). after that *,/,%
 		System.out.println((a/b)*b);
-
+		
+		
+		}
+			
+	
 
 	}
 
